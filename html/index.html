@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=gb2312" charset="utf-8">
+	<meta charset="utf-8">
 	<style>
 		body{margin:0;padding:0;overflow: hidden;}
 		.city{width:100%;position:fixed;bottom: 0px;z-index: 100;}
@@ -133,13 +133,6 @@
 			bigbooms.push(bigboom)
 		}
 
-		// canvas.addEventLisener("touchstart" , function(event){
-		// 	var touch = event.targetTouches[0];
-		// 	var x = event.pageX;
-		// 	var y = event.pageY;
-		// 	var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
-		// 	bigbooms.push(bigboom)
-		// })
 
 		var Boom = function(x,r,c,boomArea,shape){
 			this.booms = [];
